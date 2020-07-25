@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Translate",
+  "version": "0.0.1",
+  "description": "Translate selector text and can save it to github",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Translate",
+    "default_popup": "popups/default.html"
+  },
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "css": ["content.css"],
+    "js": ["content.js"]
+  }]
+}

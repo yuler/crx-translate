@@ -1,0 +1,11 @@
+translate {
+  display: inline-block;
+  min-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background: white;
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
