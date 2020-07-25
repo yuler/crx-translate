@@ -14,5 +14,9 @@
     "matches": ["*://*/*"],
     "css": ["content.css"],
     "js": ["content.js"]
-  }]
+  }],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
 }
