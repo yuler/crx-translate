@@ -12,7 +12,10 @@ window.document.addEventListener('mouseup', event => {
   if (selection) {
     const { x, y } = event
     $translate.style.transform = `translateX(${x}px) translateY(${y}px)`
+    $translate.style.display = 'inline-block'
     $translate.textContent = selection
     console.log($translate)
+  } else {
+    $translate.style.display = 'none'
   }
 })
