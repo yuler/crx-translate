@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "description": "Translate selector text and can save it to github",
   "permissions": [
-    "alarms"
+    "alarms",
+    "storage"
   ],
   "browser_action": {
     "default_title": "Translate",

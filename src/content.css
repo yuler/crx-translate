@@ -1,11 +1,21 @@
 translate {
   display: none;
   min-width: 400px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
   background: white;
   z-index: 9999;
   position: fixed;
   top: 0;
   left: 0;
+  border: 1px solid #000;
+}
+
+translate p {
+  display: inline-block;
+}
+translate a {
+  margin-left: 100px;
+  padding: 10px;
+  cursor: pointer;
 }
