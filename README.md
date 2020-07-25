@@ -10,4 +10,5 @@
 [translation.js](https://www.npmjs.com/package/translation.js)
 [translation](https://github.com/baizn/translation.js)
 [crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
+[dadda-translate-crx](https://github.com/waynecz/dadda-translate-crx)
 [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)

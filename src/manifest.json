@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Translate selector text and can save it to github",
   "permissions": [
-    "activeTab"
+    "alarms"
   ],
   "browser_action": {
     "default_title": "Translate",
@@ -17,6 +17,6 @@
   }],
   "background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "scripts": ["lib/md5.min.js", "background.js"]
   }
 }
