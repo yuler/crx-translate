@@ -12,3 +12,15 @@
 [crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
 [dadda-translate-crx](https://github.com/waynecz/dadda-translate-crx)
 [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)
+
+## pack & publish
+
+```bash
+cd src && crx pack -o ../translate.crx
+```
+
+Chrome 不允许安装未在 Chrom Store 上架的扩展
+
+https://developer.chrome.com/webstore/publish
+
+需要付费 $5 的一个注册费用
